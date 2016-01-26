@@ -44,6 +44,7 @@
     [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.size.mas_equalTo(CGSizeMake(100, 100));
 //        make.edges.mas_equalTo(_bgView).insets(UIEdgeInsetsMake(20, 20, 20, 20));
+        NSLog(@"--------");
         make.centerY.mas_equalTo(_bgView.mas_centerY);
         make.left.mas_equalTo(_bgView.mas_left).offset(20);
         make.right.mas_equalTo(view2.mas_left).offset(-20);
